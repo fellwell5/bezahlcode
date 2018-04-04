@@ -22,4 +22,4 @@ $bezahlcode->savePNG("output.png");
 
 # API
 If you don't want to install the class, you can also use our api:
-http://dev.matthiasschaffer.com/bezahlcode/api.php?iban=[IBAN]&bic=[BIC]&name=[bankaccount owner]&usage=[usage]&amount=[amount]
+http://dev.matthiasschaffer.com/bezahlcode/api.php?iban=[IBAN]&bic=[BIC]&name=[bankaccountowner]&usage=[usage]&amount=[amount]
