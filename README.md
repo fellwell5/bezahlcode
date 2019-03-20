@@ -11,13 +11,20 @@ $bezahlcode->generatePayload("usage", "amount");
 
 You can get the code as base 64:
 ```php
-$base64 = $bezahlcode->generateBase64();
+$base64 = $bezahlcode->generateBase64(); // Specified filetypes can be: jpg, png, gif; defaults to jpg
 echo "<img src='$base64' alt='Bezahlcode' />";
 ```
 
-or save the code as png file
+or save the code as image file
 ```php
-$bezahlcode->savePNG("output.png");
+$bezahlcode->saveImage("output.jpg");
+$bezahlcode->saveImage("output.png", "png"); // Specified filetypes can be: jpg, png, gif; defaults to jpg
+```
+
+or output the Bezahlcode to the webbrowser
+```php
+$bezahlcode->outputImage();
+$bezahlcode->outputImage("jpg"); // Specified filetypes can be: jpg, png, gif; defaults to jpg
 ```
 
 # API
