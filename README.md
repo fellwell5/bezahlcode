@@ -29,4 +29,4 @@ $bezahlcode->outputImage("jpg"); // Specified filetypes can be: jpg, png, gif; d
 
 # API
 If you don't want to install the class, you can also use our api:
-http://dev.matthiasschaffer.com/bezahlcode/api.php?iban=[IBAN]&bic=[BIC]&name=[bankaccountowner]&usage=[usage]&amount=[amount]
+https://dev.matthiasschaffer.com/bezahlcode/api.php?iban=[IBAN]&bic=[BIC]&name=[bankaccountowner]&usage=[usage]&amount=[amount]
