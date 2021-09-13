@@ -215,7 +215,6 @@
 			$img = base64_decode($img);
 			$layer = imagecreatefromstring($img);
 			$qr = $this->getQRCode($this->payload);
-			exit("lol");
 			imagealphablending($layer, true);
 			imagesavealpha($layer, true);
 			imagecopy($layer, $qr, 33, 33, 0, 0, 350, 350);
