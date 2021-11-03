@@ -32,11 +32,11 @@
 		 *
 		 * @param string $name Name of the bank account owner.
 		 *
-		 * @param string $qrprovider optional
+		 * @param string $qrprovider (optional)
 		 * 		Defaults to 'phpqrcode'.
 		 * 		options are 'phpqrcode' or 'google'
 		 *
-		 * @param boolean $use_frame Use Bezahlcode-Frame around the QRcode. Defined by the public variable $base64_frame
+		 * @param boolean $use_frame (optional) Use Bezahlcode-Frame around the QRcode. Defined by the public variable $base64_frame
 		 *
 		 * @access public
 		 * @since Method available since Release 0.1
