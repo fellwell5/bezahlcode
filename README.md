@@ -1,6 +1,10 @@
 # Bezahlcode
 Generates SEPA QR-Codes for money transfer
 
+## Prerequisite
+
+php GD2 extension must be installed
+
 ## Get started
 Copy "bezahlcode.class.php" and "phpqrcode.php" to your desired location.
 "phpqrcode.php" is only needed if you want to generate the QRCodes local, it is possible to use the Google QRcode API.
